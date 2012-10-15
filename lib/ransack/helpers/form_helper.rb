@@ -74,13 +74,7 @@ module Ransack
       private
 
       def order_indicator_for(order)
-        if order == 'asc'
-          '&#9650;'
-        elsif order == 'desc'
-          '&#9660;'
-        else
           nil
-        end
       end
 
     end
